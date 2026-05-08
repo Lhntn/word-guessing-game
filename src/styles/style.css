@@ -1,0 +1,26 @@
+body.dark {
+  background-color: #1e1e2f;
+  color: #eee;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem;
+  background: #282c34;
+}
+.nav-links a {
+  margin: 0 10px;
+  color: white;
+  text-decoration: none;
+}
+@media (max-width: 768px) {
+  nav {
+    flex-direction: column;
+    gap: 10px;
+  }
+  .nav-links {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}
